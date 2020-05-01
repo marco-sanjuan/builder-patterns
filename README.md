@@ -11,6 +11,7 @@ There is no limitations and no constraints, so the final construction may fail o
 
 The implementations are:
 * Classic
+* Generic builder (useful?)
 * Functional
 * Lombok
 
