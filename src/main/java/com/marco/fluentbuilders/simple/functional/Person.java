@@ -7,10 +7,10 @@ import java.util.function.Consumer;
 @ToString
 public class Person {
 
-    private String name;
-    private String lastName;
-    private Integer age;
-    private Boolean hasPet;
+    private final String name;
+    private final String lastName;
+    private final Integer age;
+    private final Boolean hasPet;
 
     private Person(String name, String lastName, Integer age, Boolean hasPet) {
         this.name = name;

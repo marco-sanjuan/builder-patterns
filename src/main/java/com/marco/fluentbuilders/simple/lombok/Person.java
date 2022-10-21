@@ -13,13 +13,13 @@ import java.util.List;
 		builderMethodName = "create")
 public class Person {
 
-	private String name;
-	private String lastName;
-	private Integer age;
+	private final String name;
+	private final String lastName;
+	private final Integer age;
 	@Builder.Default
 	private Boolean hasPet = false;
 	@Singular
-	private List<String> phones;
+	private final List<String> phones;
 	private final String excludedFromBuilder = "defaultValue";
 
 
